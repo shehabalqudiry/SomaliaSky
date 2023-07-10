@@ -1,0 +1,10 @@
+{
+    "name": "somalia_sky",
+    "host": "ftp.shehabalqudiry.com",
+    "protocol": "ftp",
+    "port": 21,
+    "username": "somalia_sky@shehabalqudiry.com",
+    "password": "Msas20012",
+    "remotePath": "/",
+    "uploadOnSave": true
+}

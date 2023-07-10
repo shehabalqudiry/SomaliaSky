@@ -1,0 +1,1041 @@
+{
+	"info": {
+		"_postman_id": "7b2032c3-b642-4eb4-a577-0b3ef449e5dc",
+		"name": "Somalia Sky",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10437911"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "logout",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}logout",
+							"host": [
+								"{{base_url}}logout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create_store",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "Category",
+									"value": "6",
+									"type": "text"
+								},
+								{
+									"key": "City",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "Name",
+									"value": "القديري 2",
+									"type": "text"
+								},
+								{
+									"key": "Description",
+									"value": "القديري ماركت",
+									"type": "text"
+								},
+								{
+									"key": "Avatar",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "Cover",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "Location",
+									"value": "5115151.55",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}stores/create_store",
+							"host": [
+								"{{base_url}}stores"
+							],
+							"path": [
+								"create_store"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "subscription_submit",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "Category",
+									"value": "6",
+									"type": "text"
+								},
+								{
+									"key": "City",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "Name",
+									"value": "القديري 2",
+									"type": "text"
+								},
+								{
+									"key": "Description",
+									"value": "القديري ماركت",
+									"type": "text"
+								},
+								{
+									"key": "Avatar",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "Cover",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "Location",
+									"value": "5115151.55",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}subscription_submit?package_id=4",
+							"host": [
+								"{{base_url}}subscription_submit"
+							],
+							"query": [
+								{
+									"key": "package_id",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "my_subscriptions",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "Category",
+									"value": "6",
+									"type": "text"
+								},
+								{
+									"key": "City",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "Name",
+									"value": "القديري 2",
+									"type": "text"
+								},
+								{
+									"key": "Description",
+									"value": "القديري ماركت",
+									"type": "text"
+								},
+								{
+									"key": "Avatar",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "Cover",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "Location",
+									"value": "5115151.55",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}my_subscriptions",
+							"host": [
+								"{{base_url}}my_subscriptions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "my_notifications",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "Category",
+									"value": "6",
+									"type": "text"
+								},
+								{
+									"key": "City",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "Name",
+									"value": "القديري 2",
+									"type": "text"
+								},
+								{
+									"key": "Description",
+									"value": "القديري ماركت",
+									"type": "text"
+								},
+								{
+									"key": "Avatar",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "Cover",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "Location",
+									"value": "5115151.55",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}my_notifications",
+							"host": [
+								"{{base_url}}my_notifications"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "my_profile",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "Category",
+									"value": "6",
+									"type": "text"
+								},
+								{
+									"key": "City",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "Name",
+									"value": "القديري 2",
+									"type": "text"
+								},
+								{
+									"key": "Description",
+									"value": "القديري ماركت",
+									"type": "text"
+								},
+								{
+									"key": "Avatar",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "Cover",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "Location",
+									"value": "5115151.55",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}my_profile",
+							"host": [
+								"{{base_url}}my_profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "notification_read_all",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "Category",
+									"value": "6",
+									"type": "text"
+								},
+								{
+									"key": "City",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "Name",
+									"value": "القديري 2",
+									"type": "text"
+								},
+								{
+									"key": "Description",
+									"value": "القديري ماركت",
+									"type": "text"
+								},
+								{
+									"key": "Avatar",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "Cover",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "Location",
+									"value": "5115151.55",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}notification_read_all",
+							"host": [
+								"{{base_url}}notification_read_all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "notification",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "Category",
+									"value": "6",
+									"type": "text"
+								},
+								{
+									"key": "City",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "Name",
+									"value": "القديري 2",
+									"type": "text"
+								},
+								{
+									"key": "Description",
+									"value": "القديري ماركت",
+									"type": "text"
+								},
+								{
+									"key": "Avatar",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "Cover",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "Location",
+									"value": "5115151.55",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}notification?notification_id=65bbf155-a394-40c3-b069-dfe637f0359c",
+							"host": [
+								"{{base_url}}notification"
+							],
+							"query": [
+								{
+									"key": "notification_id",
+									"value": "65bbf155-a394-40c3-b069-dfe637f0359c"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "my_store",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}stores/my_store",
+							"host": [
+								"{{base_url}}stores"
+							],
+							"path": [
+								"my_store"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "rate",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}rate?user_id=3&stars=2",
+							"host": [
+								"{{base_url}}rate"
+							],
+							"query": [
+								{
+									"key": "user_id",
+									"value": "3",
+									"description": "user To rated not user make rate"
+								},
+								{
+									"key": "stars",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "my_announcements",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}stores/my_announcements",
+							"host": [
+								"{{base_url}}stores"
+							],
+							"path": [
+								"my_announcements"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create_announcement",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "Title",
+									"value": "test",
+									"type": "text"
+								},
+								{
+									"key": "Category",
+									"value": "7",
+									"type": "text"
+								},
+								{
+									"key": "City",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "Name",
+									"value": "القديري",
+									"type": "text"
+								},
+								{
+									"key": "Description",
+									"value": "القديري ماركت",
+									"type": "text"
+								},
+								{
+									"key": "Price",
+									"value": "22.55",
+									"type": "text"
+								},
+								{
+									"key": "announcement_attributes[0][attr]",
+									"value": "1",
+									"description": "category attribute id get this from categories or sub categories attribute id",
+									"type": "text"
+								},
+								{
+									"key": "announcement_attributes[0][value]",
+									"value": "cnrencirneucr",
+									"description": "this from user input",
+									"type": "text"
+								},
+								{
+									"key": "announcement_attributes[1][attr]",
+									"value": "2",
+									"description": "category attribute id get this from categories or sub categories attribute id",
+									"type": "text"
+								},
+								{
+									"key": "announcement_attributes[1][value]",
+									"value": "njjnbijbn",
+									"description": "this from user input",
+									"type": "text"
+								},
+								{
+									"key": "announcement_attributes[2][attr]",
+									"value": "3",
+									"description": "category attribute id get this from categories or sub categories attribute id",
+									"type": "text"
+								},
+								{
+									"key": "announcement_attributes[2][value]",
+									"value": "bhhjibhjbihbih",
+									"description": "this from user input",
+									"type": "text"
+								},
+								{
+									"key": "Images[]",
+									"type": "file",
+									"src": [
+										"Info/79673a78-ebc1-4299-859e-0d1e1712dbd3.jpeg",
+										"Info/aa7b6278-4359-4f76-986d-e07fe6d6db72.jpeg",
+										"Info/c52d0ab3-bacd-4b30-a6e9-c8c4e602a50e.jpeg"
+									]
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}stores/create_announcement",
+							"host": [
+								"{{base_url}}stores"
+							],
+							"path": [
+								"create_announcement"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "17|aaKRUdzBrEEGmTYvdYlvZPWpnLaC2uBFmiMNSKX5",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "No Auth",
+			"item": [
+				{
+					"name": "register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "shehab alqudiry",
+									"type": "text"
+								},
+								{
+									"key": "phone",
+									"value": "01022844240",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "shehabalqudiry@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "city_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123456789",
+									"type": "text"
+								},
+								{
+									"key": "avatar",
+									"type": "file",
+									"src": []
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}register",
+							"host": [
+								"{{base_url}}register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "phone",
+									"value": "01022844240",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123456789",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}login",
+							"host": [
+								"{{base_url}}login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "currencies",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "13|HDJE5vHSyyYuW3xkgEUk5cQR1C2pBpD2LSLpB2fc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}currencies?name=u",
+							"host": [
+								"{{base_url}}currencies"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "u"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "packages",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "13|HDJE5vHSyyYuW3xkgEUk5cQR1C2pBpD2LSLpB2fc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}packages",
+							"host": [
+								"{{base_url}}packages"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "countries",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "13|HDJE5vHSyyYuW3xkgEUk5cQR1C2pBpD2LSLpB2fc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}countries?name=eg",
+							"host": [
+								"{{base_url}}countries"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "eg"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "country_by_name",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "13|HDJE5vHSyyYuW3xkgEUk5cQR1C2pBpD2LSLpB2fc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}country_by_name",
+							"host": [
+								"{{base_url}}country_by_name"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cities/{country_id}",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "13|HDJE5vHSyyYuW3xkgEUk5cQR1C2pBpD2LSLpB2fc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}cities/2",
+							"host": [
+								"{{base_url}}cities"
+							],
+							"path": [
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "states/{city_id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}states/3",
+							"host": [
+								"{{base_url}}states"
+							],
+							"path": [
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "categories",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "13|HDJE5vHSyyYuW3xkgEUk5cQR1C2pBpD2LSLpB2fc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}categories",
+							"host": [
+								"{{base_url}}categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "sub_categories/{category_id}",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "13|HDJE5vHSyyYuW3xkgEUk5cQR1C2pBpD2LSLpB2fc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}sub_categories/1",
+							"host": [
+								"{{base_url}}sub_categories"
+							],
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "stores",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}stores",
+							"host": [
+								"{{base_url}}stores"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "Category",
+									"value": "6",
+									"type": "text"
+								},
+								{
+									"key": "City",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "Name",
+									"value": "القديري 2",
+									"type": "text"
+								},
+								{
+									"key": "Description",
+									"value": "القديري ماركت",
+									"type": "text"
+								},
+								{
+									"key": "Avatar",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "Cover",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "Location",
+									"value": "5115151.55",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}users",
+							"host": [
+								"{{base_url}}users"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1",
+									"description": "if this send reterned User",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "announcements",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}stores/announcements?id=53",
+							"host": [
+								"{{base_url}}stores"
+							],
+							"path": [
+								"announcements"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "53"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "https://somalia-sky.shehabalqudiry.com/api/v1/",
+			"type": "string"
+		}
+	]
+}

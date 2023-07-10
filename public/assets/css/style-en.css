@@ -1,0 +1,27 @@
+.navbar .area li{
+    margin-right: 0px;
+    margin-left: 20px;
+}
+.filtering .select2-container--default .select2-selection--single .select2-selection__arrow b{
+    right: auto
+}
+.about-us .features .words{
+    margin-left: 20px;
+    margin-right: 0px;
+}
+.about-us .list-group-horizontal>.list-group-item+.list-group-item{
+    border-left: 0px;
+    border-right: 1px solid #DADFE5;
+}
+.about-us .more .fa,.managment .child2 .fa{
+    left: auto;
+    right: 10px;
+}
+.about-us .more,.managment .child2 a{
+    padding-right: 0px;
+    padding-left: 20px;
+}
+.projects .parent .some-info li{
+    padding-left: 0px;
+    padding-right: 40px;
+}

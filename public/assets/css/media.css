@@ -1,0 +1,99 @@
+@media (max-width:767px) {
+
+
+    .s-nav{
+        display: block;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        width: 300px;
+        height: 100%;
+        background-color: #8E2351;
+
+    }
+
+    .nav-go{
+        right: 0px;
+    }
+
+    .s-nav{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .tran{
+        -moz-transition: all 0.6s;
+        -webkit-transition: all 0.6s;
+        -o-transition: all 0.6s;
+        transition: all 0.6s;
+    }
+
+    .men-cl {
+        color: #fe5f1d;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        font-size: 25px;
+        cursor: pointer;
+        display: block
+    }
+    .collapse:not(.show){
+        display: block;
+        z-index: 9;
+    }
+    .slider h2{
+        font-size: 36px;
+    }
+    .top-header{
+        height: auto
+    }
+    .slider p{
+        width: 90%;
+        font-size: 16px;
+    }
+    .about .photo{
+        margin-top: 50px
+    }
+    .vision{
+        height: 1200px
+    }
+    .contact-us ul{
+        border-right: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px
+    }
+    .top-footer .logo{
+        padding-bottom: 15px;
+    }
+    .bottom-footer{
+        flex-direction: column
+    }
+    .top-footer .logo img{
+        max-width: 250px
+    }
+    .navbar-light .navbar-toggler{
+        color: #8E2351;
+        display: block
+    }
+    .navbar-light .navbar-nav .nav-link,.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+        color: #fff
+    }
+    .navbar .area a{
+        background-color: #000
+    }
+}
+@media (min-width:375px) and (max-width:385px) {
+
+    .filtering .select2-container--default .select2-selection--single .select2-selection__arrow b{
+        right: 1420%
+    }
+
+
+
+    .navbar-light .navbar-nav .nav-link,.navbar .dropdown-item{
+        text-align: center
+    }
+    .navbar-light .area{
+        justify-content: center
+    }
+
+}
